@@ -10,7 +10,7 @@ print('Arquivo copiado com sucesso!')
 dataHoje = datetime.datetime.now()
 mesHoje = dataHoje.strftime("%m")
 anoHoje = dataHoje.strftime("%Y")
-nomeArquivo = f"Relatório({"%m"}.{anoHoje})_PIBID_LEONARDO_FERNANDO_DE_LEMOS_SCHULER.docx"
+nomeArquivo = f"Relatório({mesHoje}.{anoHoje})_PIBID_LEONARDO_FERNANDO_DE_LEMOS_SCHULER.docx"
 renomeado = os.path.join(r"C:\Users\usuario\OneDrive - Universidade Federal de Pernambuco\FACULDADE\Relatórios PIBID 2024-26\2026", nomeArquivo)
 os.rename(copia, renomeado)
 print('Arquivo renomeado com sucesso!')
