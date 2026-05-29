@@ -1,3 +1,5 @@
+#! python3
+
 import datetime, os
 from docx import Document
 from docx.shared import Pt, Inches
@@ -35,3 +37,4 @@ run2 = p2.add_run(descricaoAtividade)
 #Salvar arquivo
 doc.save(caminhoArquivo)
 print('Arquivo salvo com sucesso!')
+finalizar = input()
