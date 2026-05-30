@@ -1,1 +1,0 @@
-@py.exe C:\Users\usuario\Desktop\python-estudos\ProjetoRelatorio\entradaExtras.py %*
